@@ -6,8 +6,8 @@ Feel free to explore and use them as you see fit. However, please note that they
 
 ## Contents
 
-- `ebookmaker`: Scripts for creating eBooks from various sources.
-  - `HuggingFaceAgents`: Scripts for downloading the HuggingFace agents course and converting it to an eBook. Since Kindle does not support GIF multiframe images, the GIFs animations are converted into 8 key frames and embedded as images.
+- [`EbookMaker`](EbookMaker): Scripts for creating eBooks from various sources.
+  - [`HuggingFaceAgents`](EbookMaker/HuggingFaceAgents): Scripts for downloading the HuggingFace agents course and converting it to an eBook. Since Kindle does not support GIF images, the GIFs are converted into 8 key frames and embedded as images.
 - More scripts to be added...
 
 ## Disclaimer
