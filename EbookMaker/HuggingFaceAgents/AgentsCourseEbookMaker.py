@@ -1,10 +1,18 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "beautifulsoup4",
+#     "ebooklib",
+#     "pillow",
+#     "requests",
+# ]
+# ///
 import os
 import re
 import json
 import html
 import mimetypes
 import requests
-import tempfile
 from PIL import Image
 from io import BytesIO
 from bs4 import BeautifulSoup
